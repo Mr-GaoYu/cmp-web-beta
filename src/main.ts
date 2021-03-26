@@ -4,5 +4,5 @@ import App from "./App.vue";
 async () => {
   const app = createApp(App);
 
-  app.mount("#app", false);
+  app.mount("#app", true);
 };
